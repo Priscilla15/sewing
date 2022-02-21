@@ -1,0 +1,81 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ 
+}
+
+.topnav{
+    background-color: teal;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+  
+    
+}
+
+.topnav a{
+    float: left;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-left: +100px;
+    display: block;
+
+    color: #FFFFFF;
+    padding: 14px 16px;
+}
+
+.topnav a:hover{
+    background-color: #ffa07a;
+    color: #008080;
+}
+
+.active{
+    background-color: #ffa07a;
+    color: #fffacd;
+}
+
+.logo{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aqua;
+    text-align: left;
+    font-style: oblique;
+    
+}
+
+.gallery{
+    background-image: url(sewing/machine\ &\ mate.jpg);
+    background-repeat: repeat;
+    width: 100%;
+    height: 400px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFFFFF;
+    margin-top: +50px;
+}
+
+.galley .cover{
+    margin-top: +200px;
+}
+
+.style{
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    
+}
+.grid{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #ffffff;;
+justify-content: space-around;
+ 
+}
+

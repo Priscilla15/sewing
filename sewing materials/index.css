@@ -1,0 +1,201 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ 
+}
+
+.topnav{
+    background-color: teal;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+  
+    
+}
+
+.topnav a{
+    float: left;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-left: +100px;
+    display: block;
+
+ 
+    color: #FFFFFF;
+    padding: 14px 16px;
+}
+
+.topnav a:hover{
+    background-color: #ffa07a;
+    color: #008080;
+}
+
+.active{
+    background-color: #ffa07a;
+    color: #fffacd;
+}
+.main{
+    background-image: url(sewing/cover.jpg);
+    font-size: 20px;
+
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color:#ffffff;
+background-repeat: no-repeat;
+height: 650px;
+width: 100%;
+}
+
+
+
+ #title{
+    text-align: center;
+    font-size: 30px;
+    
+    font-style: italic;
+    padding: 20px 0px 20px 0px;
+    
+}
+
+.flex-contain{
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #ffffff;
+  justify-content: space-around;
+
+}
+
+.text{
+    margin-top: +100px;
+    font-size: 20px;
+    color: #808000;
+    padding: 20px;
+justify-content: space-between;
+}
+
+.gallery{
+    background-image: url(sewing/cover\ page.jpg);
+    background-repeat: repeat;
+    width: 100%;
+    height: 400px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFFFFF;
+}
+
+.galley .cover{
+    margin-top: +200px;
+}
+
+.style{
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    
+}
+.grid{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #ffffff;;
+justify-content: space-around;
+ 
+}
+
+.contact{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #ffffff;
+    margin-left: +100px;
+}
+
+.us{
+    font-size: 25px;
+    padding: 10px;
+}
+
+
+   
+input{
+   width: 400px;
+   height: 50px;
+   
+   border-radius: 10px;
+   margin-left: 200px;
+   text-align: center;
+  
+}
+
+textarea{
+   
+    width: 400px;
+    height: 200px;
+    margin-left: 200px;
+  
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    background-color: #000000;
+    font-size: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    margin-left: 200px;
+}
+
+
+
+@media only screen and (max-width:993px){
+    .topnav,.topnav a{
+        width: 80%;
+        padding: 0px;
+       background-color: #ffffff;
+       color: black;
+    }
+
+    .main{
+        width: 100%;
+        text-align: center;
+        margin-top: +150px;
+        
+    }
+    .flex-contain{
+        display: inline;
+        
+    }
+
+    .grid{
+        display: inline;
+    }
+    .contact{
+        display: inline;
+        margin-left: -50px;
+    }
+    input{
+        margin-left: 50px;
+    }
+    textarea{
+        margin-left: 60px;
+    }
+    button{
+        margin-left: 70px;
+    }
+}
+
+@media only screen and (max-width:500px){
+    .gallery, .topnav a, .contact{
+        width: 100%;
+        
+    }
+}
+
+
+
+
+
